@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(node:*)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(npx kill-port:*)",
+      "Bash(curl -s http://localhost:5173/src/main.jsx)",
+      "Bash(gh auth:*)",
+      "Bash(git config:*)",
+      "Bash(git -C /c/Users/kanwa/Desktop/ShubhExpress remote -v)",
+      "Bash(git -C /c/Users/kanwa/Desktop/ShubhExpress log --oneline)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m 'Initial commit: Shubh Express INC website:*)",
+      "Bash(2>&1)"
+    ]
+  }
+}
